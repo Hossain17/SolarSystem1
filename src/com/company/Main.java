@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.Objects;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -16,6 +18,13 @@ public class Main {
         mikesun.radius="90000000km";
         mikesun.maritalStatus="in love with asghar";
 
+
+        //adding planet 1 features
+        planet1 astranout = new planet1();
+        astranout.color="grey";
+        astranout.realtionshipStatus="single";
+        astranout.size="95664564564km";
+        
 
     }
 }
